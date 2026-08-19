@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
+**🌐 [Try the Live App](https://rishika-heart-predictor.streamlit.app)**
+
 Complete ML pipeline for heart disease prediction using the Cleveland Heart Disease Dataset. Includes EDA, model comparison across 5 algorithms, hyperparameter tuning, SHAP explainability, and a live Streamlit web app.
 
 ## 🎯 Highlights
