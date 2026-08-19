@@ -67,7 +67,7 @@ Python 3.12 · scikit-learn · XGBoost · SHAP · Streamlit · pandas · matplot
 ## 👩‍💻 Author
 
 **Rishika Evenjalin** — Final-year BSc Data Science, ESOFT (London Met)
-[GitHub](https://github.com/rishikaevenjalin-bit) · Aspiring AI/ML Engineer
+[GitHub](https://github.com/rishikaevenjalin-bit) 
 
 ## 📄 License
 
