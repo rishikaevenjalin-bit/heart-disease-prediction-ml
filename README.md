@@ -25,42 +25,6 @@ Complete ML pipeline for heart disease prediction using the Cleveland Heart Dise
 | SVM | 85.25% | 90.00% | 52.94% | 66.67% | 90.24% |
 | **RF + SMOTE** ⭐ | **86.89%** | **84.62%** | **64.71%** | **73.33%** | **94.12%** |
 
-## 🏗️ Project Structure
-
-```
-heart-disease-prediction-ml/
-├── notebooks/
-│   └── heart_disease_full_pipeline.ipynb   # Complete ML pipeline
-├── app/
-│   └── streamlit_app.py                    # Interactive web app
-├── models/
-│   ├── best_xgb.pkl
-│   ├── best_rf.pkl
-│   ├── best_mlp.pkl
-│   └── scaler.pkl
-├── outputs/
-│   ├── figures/
-│   └── *.csv
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
-## 📓 Notebook Contents
-
-The main notebook walks through the complete pipeline in 10 sections:
-
-1. **Environment Setup** — Package installation and imports
-2. **Data Loading & EDA** — Exploratory analysis of Cleveland dataset
-3. **Preprocessing** — Encoding, train/test split, scaling
-4. **Traditional ML Models** — LR, RF, XGBoost, SVM
-5. **Cross-Validation & Hyperparameter Tuning** — GridSearchCV
-6. **SMOTE for Class Imbalance** — Rebalancing training data
-7. **Neural Network** — MLP with tuning
-8. **SHAP Explainability** — Global and per-patient insights
-9. **Streamlit App Generation** — Web app source code
-10. **Final Comparison** — Best model selection
-
 ## 🚀 Getting Started
 
 ```bash
@@ -68,10 +32,10 @@ git clone https://github.com/rishikaevenjalin-bit/heart-disease-prediction-ml.gi
 cd heart-disease-prediction-ml
 pip install -r requirements.txt
 
-# Run the notebook
+# Run notebook
 jupyter notebook notebooks/heart_disease_full_pipeline.ipynb
 
-# Run the web app locally
+# Run web app locally
 streamlit run app/streamlit_app.py
 ```
 
@@ -100,7 +64,7 @@ Python 3.12 · scikit-learn · XGBoost · SHAP · Streamlit · pandas · matplot
 
 ## 👩‍💻 Author
 
-**Rishika Evenjalin** — Final-year BSc Data Science, (London Met)
+**Rishika Evenjalin** — Final-year BSc Data Science, ESOFT (London Met)
 [GitHub](https://github.com/rishikaevenjalin-bit) · Aspiring AI/ML Engineer
 
 ## 📄 License
